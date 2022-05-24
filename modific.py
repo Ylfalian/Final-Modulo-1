@@ -12,7 +12,7 @@ def modifica (product):
                     print(f"Auto = {product[i].modelo}\nKm = {product[i].km}\nPrecio = {product[i].precio}\n---------------\n")
                     print("Si desea Modificarlo Escriba [Modificar] en caso contrario escriba [No]\n\n ")
                     var = input()
-                    var.lower
+                    var = var.lower()
                     if var == "modificar":
                         product[i].modelo = input("Ingrese el modelo\n")
                         product[i].km = int(input("Indique los Kilomentros del Vehiculo\n"))
@@ -25,7 +25,7 @@ def modifica (product):
                     print(f"Camion = {product[i].modelo}\nKm = {product[i].km}\nPrecio = {product[i].precio}\n---------------\n")
                     print("Si desea Modificarlo Escriba [Modificar] en caso contrario escriba [No]\n\n ")
                     var = input()
-                    var.lower
+                    var = var.lower()
                     if var == "modificar":
                         product[i].modelo = input("Ingrese el modelo\n")
                         product[i].km = int(input("Indique los Kilomentros del Vehiculo\n"))
@@ -38,7 +38,7 @@ def modifica (product):
                     print(f"Moto = {product[i].modelo}\nKm = {product[i]}\nPrecio = {product[i].precio}\n---------------\n")
                     print("Si desea Modificarlo Escriba [Modificar] en caso contrario escriba [No]\n\n ")
                     var = input()
-                    var.lower
+                    var = var.lower()
                     if var == "modificar":
                         product[i].modelo = input("Ingrese el modelo\n")
                         product[i].km = int(input("Indique los Kilomentros del Vehiculo\n"))
@@ -51,7 +51,7 @@ def modifica (product):
                     print(f"Camioneta = {product[i].modelo}\nKm = {product[i].km}\nPrecio = {product[i].precio}\n---------------\n")
                     print("Si desea Modificarlo Escriba [Modificar] en caso contrario escriba [No]\n\n ")
                     var = input()
-                    var.lower
+                    var = var.lower()
                     if var == "modificar":
                         product[i].modelo = input("Ingrese el modelo\n")
                         product[i].km = int(input("Indique los Kilomentros del Vehiculo\n"))
@@ -64,7 +64,7 @@ def modifica (product):
                     print(f"Acoplado = {product[i].modelo}\nKm = {product[i].km}\nPrecio = {product[i].precio}\n---------------\n")
                     print("Si desea Modificarlo Escriba [Modificar] en caso contrario escriba [No]\n\n ")
                     var = input()
-                    var.lower
+                    var = var.lower()
                     if var == "modificar":
                         product[i].modelo = input("Ingrese el modelo\n")
                         product[i].km = int(input("Indique los Kilomentros del Vehiculo\n"))
@@ -79,7 +79,7 @@ def modifica (product):
                     print(f"Bicicleta = {product[i].modelo}\nKm = {product[i].uso}\nPrecio = {product[i].precio}\n---------------\n")
                     print("Si desea Modificarlo Escriba [Modificar] en caso contrario escriba [No]\n\n ")
                     var = input()
-                    var.lower
+                    var = var.lower()
                     if var == "modificar":
                         product[i].modelo = input("Ingrese el modelo\n")
                         product[i].uso = int(input("Indique el uso de la Bicicleta\n"))
