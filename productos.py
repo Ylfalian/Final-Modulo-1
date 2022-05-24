@@ -1,3 +1,4 @@
+
 class Auto:
     def __init__(self, km, modelo, precio):
         self.km = km
@@ -38,4 +39,3 @@ class Bicicleta:
         self.uso = uso
         self.modelo = modelo
         self.precio = precio
-
